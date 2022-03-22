@@ -35,7 +35,7 @@ Considerando isso, implemente na função `compareTrue`, um código que ao receb
 
 Faça a função somente utilizando o operador `&&`.
 
-**O que foi verificado:**
+**O que é verificado:**
 
 - Retorne false quando se chamar a função compareTrue com um parâmetro de valor false e outro de valor true
 
@@ -49,7 +49,7 @@ Escreva uma função com o nome `calcArea` que receba um valor de base (chamado 
 
 Lembre-se que a área de um triângulo é calculada através da seguinte fórmula: (base * altura) / 2.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne o valor 250 quando a funcão calcArea é chamada com o parâmetro base com o valor 10 e o parâmetro height com o valor 50
 
@@ -63,7 +63,7 @@ Escreva uma função com o nome `splitSentence`, a qual receberá uma string e r
 
 Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `['go', 'Trybe']`.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne o valor ['go', 'Trybe'] se a função receber a string 'go Trybe'
 
@@ -77,7 +77,7 @@ Escreva uma função com o nome `concatName` que, ao receber uma array de string
 
 Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'], a função deverá retornar `Paolillo, Lucas`.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne 'Paolillo, Lucas' quando o parâmetro passado na funcão concatName seja ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo']
 
@@ -91,7 +91,7 @@ Escreva uma função com o nome `footballPoints` que receba o número de vitóri
 
 Para tanto, considere que cada vitória vale 3 pontos e cada empate vale 1 ponto.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne 50 pontos quando o time tenha 14 vitórias e 8 empates
 
@@ -105,7 +105,7 @@ Escreva uma função chamada `highestCount` que, ao receber uma array de número
 
 Exemplo: caso o parâmetro de `highestCount` seja uma array com valores `[9, 1, 2, 3, 9, 5, 7]`, a função deverá retornar `2`, que é a quantidade de vezes que o número `9` (maior número do array) se repete.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne 2 quando o parâmetro passado na função highestCount seja [9, 1, 2, 3, 9, 5, 7]
 
@@ -123,7 +123,7 @@ Exemplo: caso o gato `cat2` esteja a 2 unidades de distância do rato, e `cat1` 
 
 Caso os gatos estejam na mesma distância do rato, a função deverá retornar a string `"os gatos trombam e o rato foge"`.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne a string 'cat2' caso a função catAndMouse receba os parâmetros onde gato cat2 esteja a 2 unidades de distância do rato e cat1 esteja a 3 unidades de distância do rato
 
@@ -142,7 +142,7 @@ Crie uma função chamada `fizzBuzz` que receba uma array de números e retorne 
 
 Exemplo: caso o parâmetro seja [2, 15, 7, 9, 45], sua função deverá retornar `["bug!", "fizzBuzz", "bug!", "fizz", "fizzBuzz"]`.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne as strings ['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz'] quando é passado os parâmetros [2, 15, 7, 9, 45] para a função fizzBuzz
 
@@ -165,7 +165,7 @@ Ou seja, caso o parâmetro de `encode` seja `"hi there!"`, o retorno deverá ser
 
 A segunda função deverá se chamar `decode` e faz o contrário de `encode` - ou seja, recebe uma string contendo números no lugar de letras minúsculas e retornará uma string com vogais minúsculas no lugar dos números (então, caso o parâmetro de `decode` seja `"h3 th2r2!"`, o retorno deverá ser `"hi there!"`).
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne uma string codificada quando a função encode for utilizada
 
@@ -223,7 +223,7 @@ Entradas da função:
 
 Caso o array venha vazio sua função deve retornar 'Vazio!'
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne uma lista de objetos ordenados quando é passada uma lista com 5 tecnologias
 
@@ -239,7 +239,7 @@ Exemplo: caso o parâmetro da função seja [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1], `
 
 - Caso algum dos números da array seja menor que 0, maior que 9 ou se repita 3 vezes ou mais, `generatePhoneNumber` deverá retornar a string `"não é possível gerar um número de telefone com esses valores"`.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne a string "Array com tamanho incorreto." caso o array tenha o tamanho diferente de 11
 
@@ -265,7 +265,7 @@ Para tanto, tenha em mente algumas considerações:
 
 Exemplo: o retorno de `triangleCheck(10, 14, 8)` deverá ser `true`.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne false quando a medida de qualquer um dos lados seja maior que a soma das medidas dos outros dois.
 
@@ -307,7 +307,7 @@ String retornada:
 
 **Dica:** pesquise por algo similar a `get all integers inside a string js`.
 
-**O que será verificado:**
+**O que é verificado:**
 
 - Retorne a sugestão de quantos copos de água deve-se beber ao receber uma string
 
